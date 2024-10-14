@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins";
+}
+
+.Header_img {
+  background-image: url("../../../Assets/bannerImage.png");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hero_box {
+  align-items: center;
+  background-color: #fff3e3;
+  margin-right: 6rem;
+  border-radius: 10px;
+  position: relative;
+  top: 50px;
+}
+
+.sub_hero_box {
+  margin: 2rem;
+  width: 520px;
+}
+
+.sub_hero_box_main_text {
+  display: block;
+  color: #b88e2f;
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0.25rem 0;
+  font-family: Poppins;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 65px;
+  text-align: left;
+}
+
+.New {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #333333;
+}
+.sub_hero_box_button {
+  display: block;
+  margin: 1.5rem 0;
+  width: fit-content;
+  padding: 1rem 3rem;
+  background-color: #b88e2f;
+  text-transform: uppercase;
+}
+
+.sub_hero_box_button:hover {
+  background-color: #8c7030;
+}
+
+.sub_hero_box_button a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+.header .add-to-cart-btn {
+  display: none;
+}

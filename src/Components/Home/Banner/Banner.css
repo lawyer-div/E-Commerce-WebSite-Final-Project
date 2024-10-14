@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins";
+}
+
+.browse_range {
+  margin: 2.5rem auto;
+}
+
+.browse_range_name {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+  display: block;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #333333;
+}
+
+.browse_range_sentence {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  text-align: center;
+  display: block;
+  color: #666666;
+}
+
+.browse_range_main_card {
+  margin: 0;
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.browse_range_card {
+  height: fit-content;
+  width: fit-content;
+  flex-direction: column;
+}
+
+.browse_range_card {
+  width: 50vh;
+}
+
+.browse_range_card_name {
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: large;
+}
